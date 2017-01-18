@@ -9,5 +9,5 @@ lazy val root: Project = (project in file("."))
     skip in packageJSDependencies := false,
     jsDependencies ++= Settings.jsDependencies.value
   )
-  .enablePlugins(ScalaJSPlugin)
+  .enablePlugins(ScalaJSPlugin, WorkbenchPlugin)
 
