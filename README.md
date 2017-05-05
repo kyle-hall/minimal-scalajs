@@ -1,3 +1,5 @@
+**NOTE** Lightbend has announced they are discontinuing Activator. I will be moving this to a giter8 template soon.
+
 # minimal-scalajs
 Minimal Scala.js activator template
 
